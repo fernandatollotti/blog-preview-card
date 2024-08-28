@@ -119,6 +119,11 @@ body {
   font-weight: var(--weight-bold);
 }
 
+.blog_content .blog_title a:hover,
+.blog_content .blog_title a:active {
+  color: var(--primary);
+}
+
 .blog_content .blog_excerpt {
   color: var(--surface-bright);
   line-height: 1.5em;
